@@ -1,0 +1,229 @@
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* All Pages background image */
+html {
+  background-image: url("images/KK_Background.jpg");
+}
+
+
+/*Font Changes across the site*/
+p {
+  font-family: "Marker Felt", "Comic Sans MS", fantasy;
+}
+
+h1 {
+  font-family: "Marker Felt", "Comic Sans MS", fantasy;
+}
+
+h2{
+  font-family: "Marker Felt", "Comic Sans MS", fantasy;
+}
+
+/* images */
+#RestaurantImage {
+  max-width: 800px;
+}
+
+#MenuImage {
+  max-width: 800px;
+}
+
+/* Home page specific */
+#Main-HomePageHeader {
+  text-align: center;
+}
+
+/*Contact Page*/
+.ContactPage {
+  text-align: center;
+}
+
+/* General Body Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  /* background-color: #f4f4f4; */
+  color: #333;
+}
+
+/* Main Content Styles */
+.main-content {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: lightblue;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling for Reservations */
+form {
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input, form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form button {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 20pt;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+/* Styling for Search Section */
+#searchDate {
+  width: calc(100% - 120px);
+  display: inline-block;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#searchButton {
+  display: inline-block;
+  padding: 10px;
+  background-color: #45a049;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18pt;
+}
+
+#searchButton:hover {
+  background-color: #0056b3;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f9f9f9;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Reservation Loader */
+#reservations p {
+  text-align: center;
+  font-style: italic;
+  color: #888;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="KrustyKrab.css">
+    <title>Home - Krusty Krab</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="HomePage.html">Home</a>
+        <a href="MenuPage.html">Menu</a>
+        <a href="AboutPage.html">About</a>
+        <a href="Contact.html">Contact</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <h1 id="Main-HomePageHeader">Welcome to the Krusty Krab!</h1>
+        <img id="RestaurantImage" src="images\RestaurantImage.jpg" alt="Picture of Krusty Krab Restaurant">
+
+        <h2>Current Reservations:</h2>
+        <div id="reservations">
+            <p>Loading reservations...</p>
+        </div>
+
+        <p>Make your reservation using the form below:</p>
+        <iframe src="https://forms.gle/Nh2xiCg4KUaHsMPP7" 
+                width="640" height="600" frameborder="0" marginheight="0" marginwidth="0">
+            Loading…
+        </iframe>
+    </div>
+    <form id="reservationForm">
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required>
+      <label for="time">Time:</label>
+      <input type="time" id="time" name="time" required>
+      <button type="submit">Check Availability</button>
+    </form>
+    
+    <div>
+      <label for="searchDate">Search by Date:</label>
+      <input type="date" id="searchDate" name="searchDate" required>
+      <button id="searchButton">Search</button>
+    </div>
+  
+    <!-- Link to JS File -->
+    <script src="KrustyKrab.js"></script>
+</body>
+</html>

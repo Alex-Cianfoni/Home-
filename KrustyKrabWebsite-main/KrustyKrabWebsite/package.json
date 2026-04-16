@@ -1,0 +1,11 @@
+{
+  "name": "krustykrab",
+  "version": "1.0.0",
+  "description": "Krusty Krab Reservation System Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
